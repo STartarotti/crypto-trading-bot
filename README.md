@@ -17,7 +17,7 @@ A simple cryptocurrency trading bot built with TypeScript that supports multiple
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - npm or yarn
 - Binance account with API keys (for live trading)
 
@@ -30,7 +30,7 @@ git clone <your-repo-url>
 cd crypto-trading-bot
 ```
 
-DISCLAIMER: This software is for educational and experimental purposes only.
+DISCLAIMER: This software is for educational and experimental purposes only.DISCLAIMER: This software is for educational and experimental purposes only.
 
 2. Install dependencies:
 
@@ -45,16 +45,10 @@ cp .env.example .env
 # Edit .env with your Binance API credentials
 ```
 
-4. Build the project:
+4. Start the interactive CLI:
 
 ```bash
-npm run build
-```
-
-5. Start the interactive CLI:
-
-```bash
-npm start
+npm run live
 ```
 
 ## 📊 Trading Strategies
@@ -219,9 +213,8 @@ Built-in safety features:
 
 ```bash
 npm run build     # Compile TypeScript
-npm run start     # Run the CLI
-npm run dev       # Development mode with auto-reload
-npm run test      # Run tests (if implemented)
+npm run start     # Run the backtester with deafult configs
+npm run live      # Run live CLI
 ```
 
 ### Adding New Strategies
