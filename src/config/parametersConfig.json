@@ -1,0 +1,36 @@
+{
+    "MAC": {
+        "shortPeriod": 12,
+        "longPeriod": 26,
+        "signalPeriod": 9
+    },
+    "RSI": {
+        "period": 14,
+        "oversoldThreshold": 30,
+        "overboughtThreshold": 70
+    },
+    "BBS": {
+        "period": 20,
+        "standardDeviations": 2.0
+    },
+    "MACD": {
+        "fastPeriod": 12,
+        "slowPeriod": 26,
+        "signalPeriod": 9
+    },
+    "RSI_MA": {
+        "rsiPeriod": 14,
+        "rsiOversold": 30,
+        "rsiOverbought": 70,
+        "maShortPeriod": 10,
+        "maLongPeriod": 20
+    },
+    "Scalping": {
+        "spreadThreshold": 1.0,
+        "volumeThreshold": 1.1,
+        "quickProfitTarget": 0.08,
+        "maxHoldTime": 3,
+        "volatilityPeriod": 5,
+        "minVolatility": 0.0001
+    }
+}
