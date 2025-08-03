@@ -25,11 +25,6 @@ A simple cryptocurrency trading bot built with TypeScript that supports multiple
 
 1. Clone the repository:
 
-```bash
-git clone <your-repo-url>
-cd crypto-trading-bot
-```
-
 DISCLAIMER: This software is for educational and experimental purposes only.DISCLAIMER: This software is for educational and experimental purposes only.
 
 2. Install dependencies:
